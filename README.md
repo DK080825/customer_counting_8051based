@@ -57,7 +57,6 @@ The LCD shows the real-time people count and switches off automatically if no ac
 
 - **Keil µVision** – For assembly code development and simulation
 - **Proteus / Multisim** – For circuit simulation and logic testing
-- **EasyEDA / Eagle** – For PCB design (optional)
 - **8051 Flash Burner** – For programming the AT89S52 MCU
   
 ---
