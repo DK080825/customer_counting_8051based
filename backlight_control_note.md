@@ -1,0 +1,2 @@
+# Schematic Note (under Hardware Components & Design)
+Note: The provided schematic.pdf does not include the LCD1602 backlight control circuit (BLA and BLK pins). In the actual hardware, a transistor-based switching circuit is used to control the LCD backlight. The microcontroller turns the transistor ON/OFF based on system activity, allowing the LCD backlight to be powered down during periods of inactivity to conserve energy.
