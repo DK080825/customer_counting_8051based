@@ -18,7 +18,7 @@ Simple interface with minimal hardware.
 This system is ideal for monitoring room occupancy in labs, offices, or classrooms using cost-effective components and assembly-level control.
 ## Hardware Components & Design
 
-The AT89S52, a low-power, high-performance CMOS 8-bit microcontroller based on the 8051 core, is used for this project. Timer0 and Timer1 are configured in 16-bit mode to calculate the time-of-flight of the ultrasonic pulses. Two HY-SRF05 ultrasonic sensors are used to detect people’s movements, while an LCD1602 displays the current count.
+The AT89S52, a low-power, high-performance CMOS 8-bit microcontroller based on the 8051 core, is used for this project. Timer0 and Timer1 are configured in 16-bit mode to calculate the time-of-flight of the ultrasonic pulses. Two HC-SR04 ultrasonic sensors are used to detect people’s movements, while an LCD1602 displays the current count.
 
 To reduce power consumption, the LCD is turned off when no activity is detected for a specified period. When movement is detected again, the LCD is reactivated.
 
