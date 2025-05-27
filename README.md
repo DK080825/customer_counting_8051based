@@ -49,7 +49,7 @@ After assembling the circuit based on the provided schematic, the program must b
 
 Each ultrasonic sensor is placed on opposite sides of the entryway. The system detects the sequence of triggering and echo reception from both sensors to determine whether a person has entered or exited.
 
-The LCD shows the real-time people count and switches off automatically if no activity is detected for 5 seconds.
+The LCD shows the real-time people count and switches off automatically if no activity is detected for over 5 seconds.
 
 ---
 
