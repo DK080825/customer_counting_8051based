@@ -1,5 +1,5 @@
 # 8051-Based Dual Ultrasonic People Counter with LCD Display
-This project implements a real-time people counting system using the 8051 microcontroller, dual ultrasonic sensors (HY-SRF05 or similar), and an LCD1602 display. The system detects entry and exit events by monitoring the distance measured by two ultrasonic sensors placed at a doorway.
+This project implements a real-time people counting system using the 8051 microcontroller, dual ultrasonic sensors (HC-SR04 or similar), and an LCD1602 display. The system detects entry and exit events by monitoring the distance measured by two ultrasonic sensors placed at a doorway.
 
 # Key Features:
 
