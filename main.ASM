@@ -54,13 +54,14 @@ MAIN:
     LCALL LCD_UpdateCount
 
 MAIN_LOOP:
+    ; each sensor take at least 6ms if not detecting anything
     LCALL Sensor1_CheckDistance
     LCALL Sensor2_CheckDistance
 
-    LCALL Delay_Short
+    LCALL Delay_Short  ; about 50 ms 
     INC INACTIVE_COUNTER
     MOV A, INACTIVE_COUNTER
-    CJNE A, #30H, MAIN_LOOP
+    CJNE A, #64H, MAIN_LOOP ; take over 6 sec since first detection to when LCD turning off based on calculation
 
     CLR LCD_ON
     CLR LCD_ACTIVE_FLAG
